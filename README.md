@@ -1,5 +1,5 @@
 # tiktok-billboard
-Analyzing inaugural 4 weeks of TikTok BillBoard Top 50
+Analyzing inaugural 4 weeks of TikTok BillBoard Top 50. Softwares utilized: Google Sheets, R.
 
 Starting on Thursday of the week of September 16, 2023, Billboard weekly began ranking the top 50 songs on TikTok songs in the United States—**the Billboard TikTok Top 50**. This is the first time Billboard began tracking these metrics on TikTok in the US, which opens up new possibilities for examining what the most popular and influential songs are—especially amongst Gen Z—and any other points of commonality.
 
