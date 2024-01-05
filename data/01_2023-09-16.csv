@@ -1,0 +1,51 @@
+chart_position,base_points__inverted_chart_position,song_title,words_in_title,artist,country,last_week_position,peak_position,weeks_on_chart,key_center,song_duration,bpm,genre,release_date,chart_date,release-to-chart-days,impact_score__base_score_times_weeks_on_chart
+1,50,SkeeYee,1,Sexyy Red,United States,-,1,1,F,2:37,83,Hip-hop/rap,2023-06-09,2023-09-16,99,50
+2,49,Paint The Town Red,4,Doja Cat,United States,-,2,1,F,3:52,100,Rap,2023-08-04,2023-09-16,43,49
+3,48,august,1,Taylor Swift,United States,-,3,1,F,4:22,90,Alternative,2020-07-24,2023-09-16,1149,48
+4,47,Go!,1,"Greg Cipes, Scott Menville, et. al.",United States,-,4,1,A,1:38,105,Soundtrack,2018-07-20,2023-09-16,1884,47
+5,46,I Remember Everything,3,Zach Bryan (feat. Kacey Musgraves),United States,-,5,1,C,3:47,78,Country,2023-08-25,2023-09-16,22,46
+6,45,Deli,1,Ice Spice,United States,-,6,1,B♭,2:07,140,Hip-hop/rap,2023-01-20,2023-09-16,239,45
+7,44,I LOVE YOU HOE,4,Odetari & 9lives,United States,-,7,1,C¼♯,2:07,152,Dance,2023-07-12,2023-09-16,66,44
+8,43,It's Getting Hot,3,NLE Choppa,United States,-,8,1,E,2:14,106,Hip-hop/rap,2023-07-27,2023-09-16,51,43
+9,42,I'm Blessed,2,Charlie Wilson (feat. T.I.),United States,-,9,1,A♭,3:29,80,R&B/soul,2017-02-17,2023-09-16,2402,42
+10,41,Let It Whip,3,Dazz Band,United States,-,10,1,A,4:47,132,R&B/soul,2001-01-01,2023-09-16,8293,41
+11,40,Cruel Summer,2,Taylor Swift,United States,-,11,1,A,2:58,170,Pop,2019-08-23,2023-09-16,1485,40
+12,39,Jupiter & Mars,3,ARDN,Canada,-,12,1,A,3:16,85,Hip-hop/rap,2022-04-22,2023-09-16,512,39
+13,38,Wildest Dreams (Taylor's Version),4,Taylor Swift,United States,-,13,1,A♭,3:40,140,Pop,2021-09-17,2023-09-16,729,38
+14,37,Oh U Went,3,Young Thug (feat. Drake),United States,-,14,1,D,3:05,136,Hip-hop/rap,2023-06-23,2023-09-16,85,37
+15,36,Holy Roller,2,Zach Bryan (feat. Sierra Ferrell),United States,-,15,1,E,3:36,81,Country,2023-08-25,2023-09-16,22,36
+16,35,Peaches & Eggplants,3,Young Nudy (feat. 21 Savage),United States,-,16,1,F♯,3:24,146,Rap,2023-02-28,2023-09-16,200,35
+17,34,Wop,1,J. Dash,United States,-,17,1,B,3:51,112,Hip-hop/rap,2010-12-16,2023-09-16,4657,34
+18,33,Marvins Room,2,Drake,Canada,-,18,1,C,5:47,112,Hip-hop/rap,2011-11-15,2023-09-16,4323,33
+19,32,Looking For The Hoes (Ain't My Fault),7,Sexyy Red,United States,-,19,1,E♭,2:11,151,Hip-hop/rap,2023-06-09,2023-09-16,99,32
+20,31,Dream Love,2,Zarnab Aslam,India,-,20,1,D,3:27,91,Lofi,2023-08-18,2023-09-16,29,31
+21,30,Anti-Hero,1,Taylor Swift,United States,-,21,1,E,3:21,97,Pop,2022-10-21,2023-09-16,330,30
+22,29,fukumean,1,Gunna,United States,-,22,1,C♯,2:05,130,Hip-hop/rap,2023-06-16,2023-09-16,92,29
+23,28,Gorgeous,1,"Tee Grizzley, City Girls & Skilla Baby",United States,-,23,1,D,3:34,94,Hip-hop/rap,2023-07-28,2023-09-16,50,28
+24,27,What Was I Made For?,5,Billie Eilish,United States,-,24,1,C,3:42,78,Alternative,2023-07-13,2023-09-16,65,27
+25,26,Bejeweled,1,Taylor Swift,United States,-,25,1,C,3:14,82,Pop,2022-10-21,2023-09-16,330,26
+26,25,cardigan,1,Taylor Swift,United States,-,26,1,E♭,4:00,130,Alternative,2020-07-24,2023-09-16,1149,25
+27,24,Face Down,2,"MCVERTT, Sexyy Red & Ferg",United States,-,27,1,C,2:55,155,Dance,2023-07-28,2023-09-16,50,24
+28,23,Jacob And The Stone,4,Emile Mosseri,United States,-,28,1,C♯,1:39,84,Soundtrack,2021-02-12,2023-09-16,946,23
+29,22,GMFU,1,Odetari & 6arelyhuman,United States,-,29,1,E,2:08,126,Dance,2023-07-26,2023-09-16,52,22
+30,21,Something Like That,3,Tim McGraw,United States,-,30,1,F,3:04,86,Country,1999-05-04,2023-09-16,8901,21
+31,20,K Toven,2,Kaliii X DJ Smallz 732,United States,-,31,1,A,2:07,150,Hip-hop/rap,2023-07-20,2023-09-16,58,20
+32,19,Bent,1,"41, Kyle Richh, Jenn Carter (feat. TaTa)",United States,-,32,1,D,2:50,124,Hip-hop/rap,2023-08-04,2023-09-16,43,19
+33,18,Epiphany (I'm Leaving),3,Chrisette Michele,United States,-,33,1,C,3:29,163,R&B/soul,2009-01-01,2023-09-16,5371,18
+34,17,Need 2,2,Pinegrove,United States,-,34,1,E,3:12,77,Alternative,2023-06-15,2023-09-16,93,17
+35,16,Smaller Acts,2,Zach Bryan,United States,-,35,1,C,3:07,166,Country,2023-08-25,2023-09-16,22,16
+36,15,Where You Are,3,"Chistopher Jackson, Rachel House, et. al.",United States,-,36,1,E,3:30,118,Soundtrack,2016-11-18,2023-09-16,2493,15
+37,14,Buckle Up,2,Philly Goats X PGS Spence,United States,-,37,1,B♭,1:34,140,Hip-hop/rap,2023-07-14,2023-09-16,64,14
+38,13,Your Teeth In My Neck,5,Kali Uchis,United States,-,38,1,E♭,3:06,116,R&B/soul,2018-04-06,2023-09-16,1989,13
+39,12,Tired,1,Kelly Price,United States,-,39,1,F,3:42,122,R&B/soul,2011-05-03,2023-09-16,4519,12
+40,11,Favorite Song (Sped Up),4,Toosii,United States,-,40,1,F♯♯,2:41,151,Hip-hop/rap,2023-02-17,2023-09-16,211,11
+41,10,Say Yes,2,Floetry,United Kingdom,-,41,1,F,4:28,59,R&B/soul,2002-01-01,2023-09-16,7928,10
+42,9,I'll Be Around,3,Cee-Lo (feat. Timbaland),United States,-,42,1,B♭,3:41,93,Hip-hop/rap,2004-03-02,2023-09-16,7137,9
+43,8,Cognac Queen,2,Megan Thee Stallion,United States,-,43,1,F,3:43,131,Hip-hop/rap,2018-12-21,2023-09-16,1730,8
+44,7,Barbie World,2,Nicki Minaj & Ice Spice With Aqua,United States,-,44,1,E♭,1:50,144,Hip-hop/rap,2023-06-23,2023-09-16,85,7
+45,6,It Seems Like You're Ready,5,R. Kelly,United States,-,45,1,E,5:38,58,R&B/soul,1993-11-09,2023-09-16,10903,6
+46,5,XXL,1,LANY,United States,-,46,1,B♭,3:27,152,Pop,2023-09-12,2023-09-16,4,5
+47,4,Falling Behind,2,Laufey,Iceland,-,47,1,G,2:54,166,Jazz,2022-08-26,2023-09-16,386,4
+48,3,Power Trip,2,J. Cole (feat. Miguel),United States,-,48,1,B♭,4:01,100,Hip-hop/rap,2013-06-18,2023-09-16,3742,3
+49,2,Beautiful,1,Bazzi (feat. Camila Cabello),United States,-,49,1,D,3:00,100,Pop,2018-08-02,2023-09-16,1871,2
+50,1,Mad at Me,3,Sexyy Red,United States,-,50,1,E♭,2:39,80,Hip-hop/rap,2023-06-09,2023-09-30,113,1
