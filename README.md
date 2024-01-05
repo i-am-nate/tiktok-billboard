@@ -44,7 +44,7 @@ Unsurprisingly, song duration played no factor into ranking or impact score, as 
 
 Perhaps more surprisingly was that there seemed to be no correlation between the novelty of a song and how often or high it charted; I broke up every song into 5 categories using COUNTIFS functions—looking at original song release date to chart date: New (less than 30 days), Fresh (30-90 days), Familiar (90-365 days), Old (1-10 years), and Classic (10+ years). I created some pi chart visualizations to compare each week’s Top 50 as well as Top 5, and there was a pretty even distribution. Although Fresh songs added up to the most common across 4 weeks at 26.3% (33.3% Top 5), songs over a year old (Old and Classic combined) still accounted for 37.1% of trending songs (and 26.6% of the Top 5—over a quarter!).
 
-<img width="1015" alt="GRAPHnovelty" src="https://github.com/i-am-nate/tiktok-billboard/assets/112446964/c4276985-607b-4ff3-8b82-33ec7cf140a4">
+![](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/GRAPHnovelty.png)
 
 I was able to use additional functions such as COUNTUNIQUE to find, for instance, that Hip-hop/rap was the most popular genre across each of the 4 weeks; I used COUNTIF to discover, in a given week, 72%-94% of artists were American. However, if I were to find even more insights, I needed to look to R.
 
@@ -53,23 +53,23 @@ After importing the combined song and rank csvs into R and running some more cal
 
 **First**, the genre question. Here I combined some genres together (like Rap into Hip-hop/rap, Latino Urbano into Latino, etc.) before analyzing. We knew that Hip-hop/rap was the most popular genre, and the bar graphs bear that out. Now we also discover that, all competing for the next most popular genres are Pop, R&B/soul, and Alternative (with Soundtracks a respectable pace behind these and Jazz being the least popular genre represented).
 
-![GRAPHgenres_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/10f68a41-8186-41ce-8f70-752c8167f3f3)
+![GRAPHgenres_16-9](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/16-9/GRAPHgenres_16-9.png)
 
 **Second**, what countries are artists from? Although across the 4 weeks there are 13 countries represented, the United States is by far the highest ranked country (as the bar graph illustrates in grand fashion).
 
-![GRAPHcountry_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/67016147-893c-4e5e-a39f-b42d241861d6)
+![GRAPHcountry_16-9](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/16-9/GRAPHcountry_16-9.png)
 
 **Third**, does the key of the song matter? After giving R a custom order to accurately look across the keys in each of the 4 weeks, we can see a few key centers which are close to the top of the circle of fifths represent the largest share of songs (as we see from the larger circles of C, D, A, and F—though noticeably scarce is G). However, these are certainly not a majority of the Top 50. In fact, not only are all 12 diatonic key centers represented across all 4 weeks, but—due to microtonal keys—there are a full 17 key centers represented. The 5 microtonal keys represented (A½♭, B¼♭, B¼♯, C¼♯, and F♯♯ ) almost all contain a parenthetical title tag of “(Sped Up)” or something similar.
 
-![GRAPHkey_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/5f5b8146-11e6-44e5-b09a-c6d493d04b59)
+![GRAPHkey_16-9](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/16-9/GRAPHkey_16-9.png)
 
 **Fourth**, how about the tempo of the song? Here, comparing each song’s total impact score to its BPM, we discover a slight bell curve upwards toward songs around 85 beats per minute and again a slope up for songs approaching 170. There is a bit of a dip in the middle around 125 beats per minute. Genres and their average tempos certainly play a role here, with Hip-hop/rap and R&B/soul contributing to the upward tick for the down-tempo songs and Pop, Dance, and Electronic for the up-tempo.
 
-![GRAPHbpm2_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/49774b96-df24-4b5f-94db-3184dea3d14c)
+![GRAPHbpm2_16-9](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/16-9/GRAPHbpm2_16-9.png)
 
 Finally **fifth**, do the number of words in the song title contribute either way to a song’s impact? Measuring a song’s total impact score compared to its title’s word count did not find significant correlation. At most, we find an average difference of +60 impact points comparing songs with 2-word titles to ones with 4 words, but each category of word count had many songs +200-300 impact points above average. There was also a sharp declining slope for songs approaching 5 and certainly 6+ words; however, the sample size for songs with this many words was far fewer than songs with 5 or fewer words in the title.
 
-![GRAPHwords2_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/f1b3e614-c81b-4a60-9276-c04a4d1a554c)
+![GRAPHwords2_16-9](https://github.com/i-am-nate/tiktok-billboard/blob/main/photos/16-9/GRAPHwords2_16-9.png)
 
 ### Conclusion
 Surely there are more insights to be pulled from the data gathered within this dataset, and tracking this brand new chart further into the future will undoubtedly reveal even more insights, patterns, and correlations. But to wrap up all these findings, what insights have we gleaned for the songwriter, producer, or music industry professional looking to climb the TikTok Billboard chart?
