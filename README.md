@@ -1,19 +1,24 @@
 # tiktok-billboard
+
+## Searching for patterns of success on TikTok Billboard Top 50 chart
+
+### About
 Analyzing inaugural 4 weeks of TikTok BillBoard Top 50. Softwares utilized: Google Sheets, R.
 
+### Overview
 Starting on Thursday of the week of September 16, 2023, Billboard weekly began ranking the top 50 songs on TikTok songs in the United States—**the Billboard TikTok Top 50**. This is the first time Billboard began tracking these metrics on TikTok in the US, which opens up new possibilities for examining what the most popular and influential songs are—especially amongst Gen Z—and any other points of commonality.
 
+### Industry understanding
 There now exists the possibility to look at weekly realtime data and track various data points to seek out potential correlations and patterns for **songwriters**, **producers**, and **music industry professionals**. For the **songwriter**, does the number of words matter to popularity? Does your country of origin matter? For the **producer**, what keys are most popular? What genre? What tempo? And for the **music industry professional**, which songs are taking off—brand new ones, last year’s crop, or decades’ old classics?
 
+### Data understanding
 The chart for the [TikTok Billboard Top 50](https://www.billboard.com/charts/tiktok-billboard-top-50/) provided the base info (such as ranking, song title, artist name, and previous week’s ranking). For more detailed analysis, querying each song through [SongBPM.com](https://songbpm.com/) was useful for tempo, duration, and key center metadata; genre info came from [Apple Music](https://music.apple.com/); and Google queries encompassed the artist country-of-origin sourcing. Each of these sources were consulted to comprise the full datasets within Google Sheets ([see the document here](https://docs.google.com/spreadsheets/d/1FY9F-yOZIdBuBr7ebJiZcdXXqN_IJwJQ9X11inbrrNw/edit?usp=sharing)).
 
 I began with an intro sheet tab, then each of the four weeks of the Billboard chart are divided up into their own sheet tabs (duplicated to include a version for each week with and without added analysis formulas) followed by two sheet tabs combining the songs and the rankings (respectively).
 
 It would seem that TikTok partners with Billboard to share data, and as Billboard describes it, this is their process: “A weekly ranking of the most popular songs on TikTok in the US based on creations, video views and user engagement” ([Billboard](https://www.billboard.com/charts/tiktok-billboard-top-50/)). Therefore, based on that definition including “creations,” it would seem there might be potential for bias within the weekly dataset on Billboard’s end, as they are the gatekeepers of the particulars behind the rankings. However, basing remaining popularity off video views and user engagement—combined with Billboard’s history ranking other genres within music for decades—makes this weekly ranking a new, valuable dataset for many songwriters, producers, and industry professionals in the music industry looking to glean deeper insights into market trends.
 
-There are no elements of the songs in this dataset that would infringe on composition or recording copyrights of said songs.
-
-The data from Billboard is publicly available, as is other data such as artist country of origin and song metadata.
+There are no elements of the songs in this dataset that would infringe on composition or recording copyrights of said songs. The data from Billboard is publicly available, as is other data such as artist country of origin and song metadata.
 
 The data will allow me to look at various subsets (top 5 of a given week, top 50 across 4 weeks, etc.) to compare and contrast various values with the song’s given rank or popularity.
 
@@ -43,6 +48,7 @@ Perhaps more surprisingly was that there seemed to be no correlation between the
 
 I was able to use additional functions such as COUNTUNIQUE to find, for instance, that Hip-hop/rap was the most popular genre across each of the 4 weeks; I used COUNTIF to discover, in a given week, 72%-94% of artists were American. However, if I were to find even more insights, I needed to look to R.
 
+### Evaluation
 After importing the combined song and rank csvs into R and running some more calculations, I created visualizations to look at 5 more properties.
 
 **First**, the genre question. Here I combined some genres together (like Rap into Hip-hop/rap, Latino Urbano into Latino, etc.) before analyzing. We knew that Hip-hop/rap was the most popular genre, and the bar graphs bear that out. Now we also discover that, all competing for the next most popular genres are Pop, R&B/soul, and Alternative (with Soundtracks a respectable pace behind these and Jazz being the least popular genre represented).
@@ -65,6 +71,7 @@ Finally **fifth**, do the number of words in the song title contribute either wa
 
 ![GRAPHwords2_16-9](https://github.com/i-am-nate/tiktok-billboard/assets/112446964/f1b3e614-c81b-4a60-9276-c04a4d1a554c)
 
+### Conclusion
 Surely there are more insights to be pulled from the data gathered within this dataset, and tracking this brand new chart further into the future will undoubtedly reveal even more insights, patterns, and correlations. But to wrap up all these findings, what insights have we gleaned for the songwriter, producer, or music industry professional looking to climb the TikTok Billboard chart?
 
 For the **songwriter**: song duration can be long or short, perhaps keep your song title under 5 words, and ultimately the key center doesn’t matter so much (although especially C, D, and A seem to have the most representation). But being from the US is certainly a helpful quality, as is writing for popular genres such as Hip-hop/rap, R&B/soul, or Pop.
